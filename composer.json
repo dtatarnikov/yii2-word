@@ -1,0 +1,26 @@
+{
+    "name": "strong2much/yii2-word",
+    "type": "yii2-extension",
+    "minimum-stability": "stable",
+    "description": "Helper and wrapper class for PHPWord for simple communication",
+    "keywords": ["yii2", "phpword", "word"],
+    "homepage": "https://github.com/strong2much/yii2-word.git",
+	"license": "BSD-3-Clause",
+    "authors": [
+        {
+          "name": "Denis A. Tatarnikov",
+          "email": "strong2much@gmail.com",
+          "homepage": "https://github.com/strong2much"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+		"phpoffice/phpword": "0.12.*",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "strong2much\\word\\": "src/"
+        }
+    }
+}
